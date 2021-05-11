@@ -1,29 +1,11 @@
 
 
 var circles = {
-	"FirstTestCase-001": [
+	"GET-movie-subject-TC001": [
 		100,
 		101,
 		5,
 		"red"
-	],
-	"FirstTestCase-001-2-1": [
-		150,
-		102,
-		5,
-		"gray"
-	],
-	"FirstTestCase-001-2-2": [
-		400,
-		107,
-		5,
-		"gray"
-	],
-	"FirstTestCase-001-2-2-1": [
-		550,
-		110,
-		5,
-		"gray"
 	],
 	"SecondTestCase-dt1-1": [
 		200,
@@ -32,15 +14,15 @@ var circles = {
 		"red"
 	],
 	"SecondTestCase-dt1-2": [
-		300,
-		105,
-		7,
+		150,
+		102,
+		5,
 		"red"
 	],
 	"SecondTestCase-dt1-3": [
-		350,
-		106,
-		7,
+		300,
+		105,
+		5,
 		"red"
 	],
 	"SecondTestCase-dt1-4": [
@@ -50,26 +32,26 @@ var circles = {
 		"red"
 	],
 	"SecondTestCase-dt2-1": [
+		400,
+		107,
+		5,
+		"red"
+	],
+	"SecondTestCase-dt2-2": [
 		500,
 		109,
 		5,
 		"red"
 	],
-	"SecondTestCase-dt2-2": [
-		650,
-		112,
-		5,
-		"red"
-	],
 	"SecondTestCase-dt2-3": [
-		450,
-		108,
+		350,
+		106,
 		5,
 		"red"
 	],
 	"SecondTestCase-dt2-4": [
-		600,
-		111,
+		450,
+		108,
 		5,
 		"red"
 	],
@@ -80,8 +62,8 @@ var circles = {
 		"red"
 	],
 	"Teardown-001": [
-		700,
-		113,
+		550,
+		110,
 		5,
 		"red"
 	]
@@ -120,23 +102,4 @@ var priorityLines = {
 	]
 };
 
-var parentChildrenlines = [
-	[
-		100,
-		101,
-		150,
-		102
-	],
-	[
-		100,
-		101,
-		400,
-		107
-	],
-	[
-		400,
-		107,
-		550,
-		110
-	]
-];
+var parentChildrenlines = null;
