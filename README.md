@@ -5,6 +5,8 @@ Quick start
 
 Note: You can prepare many many test cases based on the samples to let Go4Api run for you.
 
+Just download this repo to you specified directory.
+
 ### A simple case, with hard-coded Json:
 #### Prepare the Json:
 
