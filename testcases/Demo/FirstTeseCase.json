@@ -1,6 +1,6 @@
 [
   {
-    "FirstTestCase-001": {
+    "GET-movie-subject-TC001": {
       "priority": "1",
       "parentTestCase": "root",
       "inputs": [],
