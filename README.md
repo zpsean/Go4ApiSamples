@@ -3,41 +3,7 @@
 Quick start
 -----------
 
-Note: You can prepare many many test cases based on below examples to let Go4Api run for you.
-
-### Your testing workspace may like below:
-```js
-samples/
-├── mutation
-│   └── MutationTeseCase.json
-├── scenarios
-│   └── scenario1
-│       ├── s1ChildChildChildTeseCase.json
-│       ├── s1ChildChildTeseCase.json
-│       ├── s1ChildTeseCase.json
-│       ├── s1ParentTeseCase.json
-│       └── temp
-│           ├── _join.csv
-│           ├── s1ParentTestCase_out.csv
-│           └── s1ParentTestCase_out2.csv
-├── testconfig
-│   └── config.json
-├── testdata
-│   └── Demo
-│       ├── FirstTeseCase.json
-│       ├── SecondTeseCase.json
-│       ├── SecondTeseCase_dt1.csv
-│       └── SecondTeseCase_dt2.csv
-└── testresource
-    └── swagger.json
-
-testresults/
-└── 2018-09-10\ 07:42:20.804070777\ +0800\ CST\ m=+0.001524050
-    ├── 2018-09-10\ 07:42:20.804070777\ +0800\ CST\ m=+0.001524050.log
-    ├── index.html
-    ├── js
-    └── style
-```
+Note: You can prepare many many test cases based on the samples to let Go4Api run for you.
 
 ### A simple case, with hard-coded Json:
 #### Prepare the Json:
@@ -99,7 +65,9 @@ testresults/
 #### Running go4api
 
 ```js
-$./go4api -run -c /<you Path>/testconfig  -tc  /<you Path>/testdata -tr /<you Path>/testresource -r /<you Path>/testresults
+suppose download the repo to your home diretory
+
+$./go4api-mac-0.71.8 -run -c testconfig/config.json  -tc  testdata -tr testresource -js jsFuncs -r testresults
 ```
 
 
@@ -151,7 +119,7 @@ dt1-2,2,500
 #### Running go4api
 
 ```js
-$./go4api -run -baseUrl https://api.douban.com -c /<you Path>/testconfig  -tc  /<you Path>/testdata -tr /<you Path>/testresource -r /<you Path>/testresults
+$./go4api-mac-0.71.8 -run -baseUrl https://api.douban.com -c testconfig/config.json  -tc  testdata -tr testresource -js jsFuncs -r testresults
 ```
 
 
