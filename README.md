@@ -67,8 +67,6 @@ Just download this repo to you specified directory.
 #### Running go4api
 
 ```js
-suppose download the repo to your home diretory
-
 $./go4api-mac-0.71.8 -run  -c testconfig/config.json  -tc testcases  -tr testresource  -js jsFuncs  -r testresults
 ```
 
