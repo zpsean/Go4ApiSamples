@@ -8,14 +8,14 @@ var circles = {
 		"red"
 	],
 	"SecondTestCase-dt1-1": [
-		150,
-		102,
+		200,
+		103,
 		5,
 		"red"
 	],
 	"SecondTestCase-dt1-2": [
-		250,
-		104,
+		150,
+		102,
 		5,
 		"red"
 	],
@@ -26,8 +26,8 @@ var circles = {
 		"red"
 	],
 	"SecondTestCase-dt1-4": [
-		200,
-		103,
+		250,
+		104,
 		5,
 		"red"
 	],
