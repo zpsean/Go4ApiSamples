@@ -67,7 +67,7 @@ Just download this repo to you specified directory.
 #### Running go4api
 
 ```js
-$./go4api-mac-0.71.8 -run  -c testconfig/config.json  -tc testcases  -tr testresource  -js jsFuncs  -r testresults
+$./go4api-mac-0.71.8 -run -ifOriginReq -c testconfig/config.json  -tc testcases  -tr testresource  -js jsFuncs  -r testresults
 ```
 
 
@@ -119,7 +119,7 @@ dt1-2,2,500
 #### Running go4api
 
 ```js
-$./go4api-mac-0.71.8 -run -baseUrl https://api.douban.com  -c testconfig/config.json  -tc testcases  -tr testresource  -js jsFuncs  -r testresults
+$./go4api-mac-0.71.8 -run -ifOriginReq -baseUrl https://api.douban.com  -c testconfig/config.json  -tc testcases  -tr testresource  -js jsFuncs  -r testresults
 ```
 
 
